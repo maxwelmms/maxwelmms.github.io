@@ -1,15 +1,40 @@
 site_name: Maxwel Silva
-site_url: https://maxwelmms.github.io/
+site_url: https://maxwelmms.github.io/maxwelmms.github.io/
+repo_url: https://github.com/maxwelmms/maxwelmms.github.io
 nav:
-    - Home: index.md
-    - Version 2.x:
-        - Getting Started: v2/getting-started.md
-        - Types:
-            - Comments: v2/types/comments.md
-    - Version 1.x:
-        - Types:
-            - Comments: v1/types/comments.md
-            - Posts: v1/types/posts.md
-
-
-theme: readthedocs
+  - Home: 'index.md'
+markdown_extensions:
+  - toc:
+    permalink: "#"
+theme:
+  name: material
+  features:
+    - navigation.expand
+    - navigation.top
+    - content.code.copy
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-5
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-3
+        name: Switch to light mode
+extra_javascript: 
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+markdown_extensions:
+  - mdx_math
+  - admonition
+  - sane_lists
+  - pymdownx.highlight:
+      auto_title: false
+  - pymdownx.superfences
+  - pymdownx.keys
+docs_dir: src
+edit_uri: edit/main/src/
+site_dir: docs
