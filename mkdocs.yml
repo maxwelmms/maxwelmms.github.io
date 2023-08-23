@@ -3,6 +3,8 @@ site_url: https://maxwelmms.github.io/maxwelmms.github.io/
 repo_url: https://github.com/maxwelmms/maxwelmms.github.io
 nav:
   - Home: 'index.md'
+  - About: 'about.md'
+  - License: 'license.md'
 markdown_extensions:
   - toc:
     permalink: "#"
