@@ -1,4 +1,6 @@
-# Data collect
+# Performance and Management
+
+## Data collect
 
 - [HMCScanner](https://www.ibm.com/support/pages/hmc-scanner-power-server-config-and-performance-stats): HMC Scanner is a Java program that uses SSH to connect to an HMC. It downloads the system configuration
 and produces a single Excel spreadsheet that contains the configuration of servers and LPARs.
