@@ -5,6 +5,19 @@ nav:
   - Home: 'index.md'
   - About: 'about.md'
   - License: 'license.md'
+  - Ansible: 'ansible.md'
+  - Containers : 'containers.md'
+  - Docker: 'docker.md'
+  - Vagrant: 'vagrant.md'
+  - SLES: 'sles.md'
+  - RHEL: 'rhel.md'
+  - Linux: 'linux.md'
+  - IBM Power Systems: 'ibmpower.md'
+  - OpenStack: 'openstack.md'
+  - OpenShift: 'openshift.md'
+  - Storage: 'storage.md'
+  - Network: 'network.md'
+  - Security: 'security.md'
 markdown_extensions:
   - toc:
     permalink: "#"
