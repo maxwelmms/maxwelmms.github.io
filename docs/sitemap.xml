@@ -6,7 +6,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://maxwelmms.github.io/maxwelmms.github.io/about/</loc>
+         <loc>https://maxwelmms.github.io/maxwelmms.github.io/aix/</loc>
          <lastmod>2023-08-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -26,7 +26,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://maxwelmms.github.io/maxwelmms.github.io/ibmpower/</loc>
+         <loc>https://maxwelmms.github.io/maxwelmms.github.io/hmc/</loc>
          <lastmod>2023-08-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -52,6 +52,26 @@
     </url>
     <url>
          <loc>https://maxwelmms.github.io/maxwelmms.github.io/openstack/</loc>
+         <lastmod>2023-08-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://maxwelmms.github.io/maxwelmms.github.io/powerha/</loc>
+         <lastmod>2023-08-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://maxwelmms.github.io/maxwelmms.github.io/powervc/</loc>
+         <lastmod>2023-08-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://maxwelmms.github.io/maxwelmms.github.io/powervm/</loc>
+         <lastmod>2023-08-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://maxwelmms.github.io/maxwelmms.github.io/readme/</loc>
          <lastmod>2023-08-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
