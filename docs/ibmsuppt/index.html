@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://maxwelmms.github.io/maxwelmms.github.io/rhel/">
+        <link rel="canonical" href="https://maxwelmms.github.io/maxwelmms.github.io/ibmsuppt/">
       
       
-        <link rel="prev" href="../sles/">
+        <link rel="prev" href="../powerhardware/">
       
       
-        <link rel="next" href="../linux/">
+        <link rel="next" href="../powervm/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -22,7 +22,7 @@
     
     
       
-        <title>RHEL - Maxwel Silva</title>
+        <title>IBM Support - Maxwel Silva</title>
       
     
     
@@ -76,6 +76,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#ibm-support" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -108,7 +113,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              RHEL
+              IBM Support
             
           </span>
         </div>
@@ -397,16 +402,9 @@
       
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../rhel/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -415,7 +413,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -443,19 +440,19 @@
       
   
   
+    
+  
   
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_11" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" checked>
         
           <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="0">
             
@@ -468,7 +465,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_11">
             <span class="md-nav__icon md-icon"></span>
             IBM Power Systems
@@ -539,9 +536,29 @@
                 
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../ibmsuppt/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    IBM Support
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -550,6 +567,46 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#system-logs-and-data" class="md-nav__link">
+    System logs and data
+  </a>
+  
+    <nav class="md-nav" aria-label="System logs and data">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#snap" class="md-nav__link">
+    SNAP:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -774,6 +831,36 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#system-logs-and-data" class="md-nav__link">
+    System logs and data
+  </a>
+  
+    <nav class="md-nav" aria-label="System logs and data">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#snap" class="md-nav__link">
+    SNAP:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -791,9 +878,71 @@
   
 
 
-  <h1>RHEL</h1>
+<h1 id="ibm-support"><a href="https://www.ibm.com/mysupport/s/?language=en_US">IBM Support</a></h1>
+<h2 id="system-logs-and-data">System logs and data</h2>
+<h3 id="snap"><a href="https://www.ibm.com/docs/en/aix/7.2?topic=s-snap-command">SNAP</a>:</h3>
+<div class="highlight"><pre><span></span><code>-a                copies all system config. information to /tmp/ibmsupt directory tree
+-c                creates a  compressed tar image (snap.tar.Z) of all files in the /tmp/ibmsupt
+-g                gather general information
+-e                for HACMP, it runs clverification and gathers the data creating a snap
+</code></pre></div>
+<p><strong>EXAMPLES:</strong></p>
+<div class="highlight"><pre><span></span><code>#removes old snap from /tmp/ibmsupt
+snap -r
 
+#creates a new snap file
+snap -gc
+</code></pre></div>
+<p><strong>Reading a compressed snap file:</strong></p>
+<div class="highlight"><pre><span></span><code>#creates a compressed snap file (/tmp/ibmsupt/snap.pax.Z)
+snap -ac
 
+#uncompresses it, we will have a snap.pax file
+uncompress snap.pax.Z
+
+#unpack files, after files can be read
+pax -rvf snap.pax
+</code></pre></div>
+<p><strong>Extracting snap.pax.Z file:</strong></p>
+<p>For basic dump analysis, this article is mostly interested in a dump image. Here, we cover how to extract the appropriate files from the snap package and then explain a methodical approach to examine the dump, and find the fundamental reason for a system crash. The dump file and the UNIX® file are in the dump subdirectory of the snap package.</p>
+<p>Though we are primarily focused on the dump image, it is important to note that snap can provide you with useful information when used with appropriate options. Additional information is found in the General and Kernel subsections of the article.</p>
+<p><strong>General</strong></p>
+<p>This general directory includes information about the system runtime environment, for example:</p>
+<div class="highlight"><pre><span></span><code>Copy of ODM data.
+All environment variables (e.g., PATH and TZ).
+Date and time the data was collected.
+Amount of real memory on the system (bootinfo -r).
+Listing of all defined paging spaces.
+Listing of all installed filesets and their levels.
+Listing of all installed APARs.
+Device attributes (lsattr -El).
+System VPD information (lscfg -pv).
+Status of last dump (sysdumpdev -L).
+</code></pre></div>
+<p><strong>Kernel</strong></p>
+<p>The kernel subdirectory contains useful kernel information (Process and memory data).</p>
+<div class="highlight"><pre><span></span><code>Date and time the data was collected
+Vmstat output
+VMM tunable information (vmo -L).
+Scheduling tunable information (schedo -L).
+I/O related tunable iformation (ioo -L).
+Environment variables.
+SRC information (lssrc -a).
+Process information (ps -ef and ps -leaf).
+Checksum of device drivers and methods.
+</code></pre></div>
+<p><strong>Extracting the snap package:</strong></p>
+<p>The pax command is used to extract files from the snap package.</p>
+<div class="highlight"><pre><span></span><code>#To view the contents of a snap package, type:
+zcat snap.pax.Z | pax -v
+
+#To extract the entire contents of a package, type:
+zcat snap.pax.Z | pax -r
+
+#To extract just the dump, general, and kernel subdirectories, type:
+uncompress snap.pax.Z
+zcat snap.pax.Z | pax -r ./dump ./general ./kernel
+</code></pre></div>
 
 
 

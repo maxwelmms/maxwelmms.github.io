@@ -16,6 +16,7 @@ nav:
     - 'AIX': 'aix.md'
     - 'LPAR': 'powerconf.md'
     - 'Hardware': 'powerhardware.md'
+    - 'IBM Support': 'ibmsuppt.md'
     - 'PowerVM (VIOS)': 'powervm.md'
     - 'PowerHA': 'powerha.md'
     - 'PowerVC': 'powervc.md'
