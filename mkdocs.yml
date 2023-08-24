@@ -3,9 +3,8 @@ site_url: https://maxwelmms.github.io/maxwelmms.github.io/
 repo_url: https://github.com/maxwelmms/maxwelmms.github.io
 nav:
   - Home: 'index.md'
-  - 'About':
-    - 'Readme': 'readme.md'
-    - 'License': 'license.md'
+  - About: 'about.md'
+  - License: 'license.md'
   - Ansible: 'ansible.md'
   - Containers : 'containers.md'
   - Docker: 'docker.md'
@@ -15,9 +14,12 @@ nav:
   - Linux: 'linux.md'
   - 'IBM Power Systems':
     - 'AIX': 'aix.md'
+    - 'LPAR': 'powerconf.md'
+    - 'Hardware': 'powerhardware.md'
     - 'PowerVM (VIOS)': 'powervm.md'
     - 'PowerHA': 'powerha.md'
     - 'PowerVC': 'powervc.md'
+    - 'Performance and Management': 'powerperfmgm.md'
     - 'HMC': 'hmc.md'
   - OpenStack: 'openstack.md'
   - OpenShift: 'openshift.md'
