@@ -1,4 +1,5 @@
-# Root/unrestricted shell HMC
+# Hardware Management Console (HMC)
+## Root/unrestricted shell HMC
 
 Ref: [pesh command](https://www.ibm.com/docs/en/power8/8335-GCA?topic=HW4L4/p8edm/pesh.htm)
 
@@ -31,7 +32,7 @@ You will be prompted for a password.
 
 
 
-# Free up space in HMC file systems
+## Free up space in HMC file systems
 
 Ref: [chhmcfs command](https://www.ibm.com/docs/en/power9?topic=commands-chhmcfs)
 
@@ -72,8 +73,3 @@ All size and free space values displayed by this command are in megabytes.
 	lshmcfs -o c -d 0
 	#List HMC file system disk space usage information if temporary HMC files were removed to free up to 100 MB in each file system: 
 	lshmcfs -o c -s 100
-
-
-
-
-

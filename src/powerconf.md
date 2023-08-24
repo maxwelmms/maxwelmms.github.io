@@ -1,6 +1,8 @@
-# Profile types and architecture
+# Logical Partition (LPAR)
 
-## CPU
+## Profile types and architecture
+
+### CPU
 - **Dedicated:** The PU is assigned to the LPAR in the Shared Processor Pool.
 - **Dedicated Donating:** Flexibility to donate idle or spare processors owned by a dedicated LPAR to a shared processor pool.
 - **Shared Uncapped:**

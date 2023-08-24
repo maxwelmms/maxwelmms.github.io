@@ -77,7 +77,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#rootunrestricted-shell-hmc" class="md-skip">
+        <a href="#hardware-management-console-hmc" class="md-skip">
           Skip to content
         </a>
       
@@ -627,6 +627,17 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    HMC
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -636,6 +647,39 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#rootunrestricted-shell-hmc" class="md-nav__link">
+    Root/unrestricted shell HMC
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#free-up-space-in-hmc-file-systems" class="md-nav__link">
+    Free up space in HMC file systems
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -764,6 +808,28 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#rootunrestricted-shell-hmc" class="md-nav__link">
+    Root/unrestricted shell HMC
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#free-up-space-in-hmc-file-systems" class="md-nav__link">
+    Free up space in HMC file systems
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -780,7 +846,8 @@
   
 
 
-<h1 id="rootunrestricted-shell-hmc">Root/unrestricted shell HMC</h1>
+<h1 id="hardware-management-console-hmc">Hardware Management Console (HMC)</h1>
+<h2 id="rootunrestricted-shell-hmc">Root/unrestricted shell HMC</h2>
 <p>Ref: <a href="https://www.ibm.com/docs/en/power8/8335-GCA?topic=HW4L4/p8edm/pesh.htm">pesh command</a></p>
 <p><strong>pesh</strong> provides full shell access to the HMC for product engineering and support personnel. pesh takes the serial number of the HMC machine or unique ID of the virtual HMC where full shell access is requested, then prompts the user for a one day password obtained from the support organization. If the password is valid, the user is granted full shell access. Only the hscpe user can run this command. </p>
 <p>To obtain full shell access to a Hardware Management Console (HMC): 
@@ -800,7 +867,7 @@ separators to the pesh command:
 or 
 <strong>pesh 4c7f459c4980bef5</strong> 
 You will be prompted for a password. </p>
-<h1 id="free-up-space-in-hmc-file-systems">Free up space in HMC file systems</h1>
+<h2 id="free-up-space-in-hmc-file-systems">Free up space in HMC file systems</h2>
 <p>Ref: <a href="https://www.ibm.com/docs/en/power9?topic=commands-chhmcfs">chhmcfs command</a></p>
 <p><strong>chhmcfs</strong> frees up space in Hardware Management Console (HMC) file systems. Space is freed by removing temporary HMC files that are used for HMC and managed system firmware problem analysis from the HMC hard disk. 
 This command can free up space in the following file systems: <strong>/var</strong>, <strong>/var/hsc/log</strong>, <strong>/dump</strong>, <strong>/extra</strong>, <strong>/data</strong>, and <strong>/</strong>. The temporary files that can be removed from the <strong>/var</strong> and <strong>/var/hsc/log</strong> file systems include HMC trace and log files. The temporary files that can be removed from the <strong>/dump</strong> file system include managed system dumps, managed frame dumps, and debug data collected using the HMC <strong>pedbg</strong> command. The temporary files that can be removed from the /extra file system include managed system dumps and managed frame dumps. The temporary files that can be removed from the /data file system include HMC Java core dump and heap dump files, and service files called home with serviceable events. 
