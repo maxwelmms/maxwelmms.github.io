@@ -2,7 +2,7 @@
 
 ## System logs and data
 
-### [SNAP](https://www.ibm.com/docs/en/aix/7.2?topic=s-snap-command):
+### [SNAP](https://www.ibm.com/docs/en/aix/7.2?topic=s-snap-command)
 
     -a                copies all system config. information to /tmp/ibmsupt directory tree
     -c                creates a  compressed tar image (snap.tar.Z) of all files in the /tmp/ibmsupt
@@ -11,7 +11,7 @@
 
 
 **EXAMPLES:**
-	
+
 	#removes old snap from /tmp/ibmsupt
 	snap -r
 
@@ -24,10 +24,10 @@
 
 	#creates a compressed snap file (/tmp/ibmsupt/snap.pax.Z)
 	snap -ac
-	
+
 	#uncompresses it, we will have a snap.pax file
 	uncompress snap.pax.Z
-	
+
 	#unpack files, after files can be read
 	pax -rvf snap.pax
 
@@ -80,4 +80,3 @@ The pax command is used to extract files from the snap package.
     #To extract just the dump, general, and kernel subdirectories, type:
     uncompress snap.pax.Z
     zcat snap.pax.Z | pax -r ./dump ./general ./kernel
-
