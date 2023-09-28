@@ -11,17 +11,16 @@ nav:
   - Vagrant: 'vagrant.md'
   - SLES: 'sles.md'
   - RHEL: 'rhel.md'
-  - Linux: 'linux.md'
   - 'IBM Power Systems':
-    - 'AIX': 'aix.md'
-    - 'LPAR': 'powerconf.md'
-    - 'Hardware': 'powerhardware.md'
-    - 'IBM Support': 'ibmsuppt.md'
-    - 'PowerVM (VIOS)': 'powervm.md'
-    - 'PowerHA': 'powerha.md'
-    - 'PowerVC': 'powervc.md'
-    - 'Performance and Management': 'powerperfmgm.md'
-    - 'HMC': 'hmc.md'
+    - 'AIX': 'ibm_power_systems_aix.md'
+    - 'LPAR': 'ibm_power_systems_lpar.md'
+    - 'Hardware': 'ibm_power_systems_hardware.md'
+    - 'IBM Support': 'ibm_power_systems_ibmsuppt.md'
+    - 'PowerVM (VIOS)': 'ibm_power_systems_powervm.md'
+    - 'PowerHA': 'ibm_power_systems_powerha.md'
+    - 'PowerVC': 'ibm_power_systems_powervc.md'
+    - 'Performance and Management': 'ibm_power_systems_perfmgm.md'
+    - 'HMC': 'ibm_power_systems_hmc.md'
   - OpenStack: 'openstack.md'
   - OpenShift: 'openshift.md'
   - Storage: 'storage.md'
@@ -49,7 +48,7 @@ theme:
       toggle:
         icon: material/brightness-3
         name: Switch to light mode
-extra_javascript: 
+extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 markdown_extensions:
   - mdx_math
