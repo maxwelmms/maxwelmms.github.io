@@ -23,6 +23,7 @@ nav:
     - 'HMC': 'ibm_power_systems_hmc.md'
   - OpenStack: 'openstack.md'
   - OpenShift: 'openshift.md'
+  - Oracle: 'oracle.md'
   - Storage: 'storage.md'
   - Network: 'network.md'
   - Security: 'security.md'
