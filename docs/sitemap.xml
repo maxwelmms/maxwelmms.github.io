@@ -6,11 +6,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://maxwelmms.github.io/maxwelmms.github.io/about/</loc>
-         <lastmod>2023-09-28</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://maxwelmms.github.io/maxwelmms.github.io/ansible/</loc>
          <lastmod>2023-09-28</lastmod>
          <changefreq>daily</changefreq>
@@ -67,11 +62,6 @@
     </url>
     <url>
          <loc>https://maxwelmms.github.io/maxwelmms.github.io/ibm_power_systems_powervm/</loc>
-         <lastmod>2023-09-28</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://maxwelmms.github.io/maxwelmms.github.io/license/</loc>
          <lastmod>2023-09-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
